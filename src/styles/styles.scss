@@ -70,11 +70,13 @@ body {
   .socials {
     display: flex;
     margin-top: 60px;
+    align-items: center;
 
     p {
       font-size: 14px;
       opacity: .7;
       margin-right: 32px;
+      margin-bottom: 0;
     }
 
     .github {
