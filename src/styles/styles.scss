@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@400;700&display=swap');
+
+body {
+  color: white;
+  background: #181818;
+  font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+  background-color: #181818;
+}
+
+.image {
+  margin-left: 32px;
+  margin-top: 32px;
+  margin-bottom: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.container {
+  max-width: 1024px;
+  padding: 0 32px;
+  margin: 0 auto;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  min-height: 680px;
+  flex-direction: column;
+  height: 100vh;
+
+  & > p {
+    font-size: calc(16px + (24 - 16) * ((100vw - 400px) / (1400 - 400)));
+    opacity: 80%;
+  }
+
+  @media all and (min-width: 1400px) {
+    & > p {
+      font-size: 24px;
+    }
+  }
+
+  .subcontent:first-of-type {
+    margin-top: 28px;
+  }
+
+  h1 {
+    font-size: calc(34px + (48 - 34) * ((100vw - 400px) / (1400 - 400)));
+    line-height: 1.2;
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  @media all and (min-width: 1400px) {
+    h1 {
+      font-size: 48px;
+    }
+  }
+
+  .name {
+    font-weight: 700;
+    color: #CCF557;
+    text-shadow: 0px 0px 24px rgba(116, 243, 95, 0.7);
+  }
+
+  .socials {
+    display: flex;
+    margin-top: 60px;
+
+    p {
+      font-size: 14px;
+      opacity: .7;
+      margin-right: 32px;
+    }
+
+    .github {
+      margin-right: 20px;
+    }
+  }
+}
