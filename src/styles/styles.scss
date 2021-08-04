@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@400;700&display=swap');
 
+::selection { background: #CCF557; color: #181818; }
+
 body {
   color: white;
   background: #181818;
@@ -79,8 +81,29 @@ body {
       margin-bottom: 0;
     }
 
+    a {
+      display: flex;
+      align-items: center;
+
+      path {
+        transition: all 200ms ease-in-out;
+      }
+
+      &:hover path {
+        fill-opacity: 1;
+      }
+
+    }
+
     .github {
       margin-right: 20px;
     }
+
+    .twitter {
+      &:hover path {
+        fill: #1DA1F2;
+      }
+    }
+
   }
 }

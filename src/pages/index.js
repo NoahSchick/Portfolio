@@ -2,7 +2,7 @@ import * as React from "react"
 import "../styles/styles.scss"
 import "../styles/normalize.css"
 import { StaticImage } from "gatsby-plugin-image"
-import Seo from "../components/seo"
+// import Seo from "../components/seo"
 
 const IndexPage = () => (
   <div className="wrapper">
@@ -17,8 +17,6 @@ const IndexPage = () => (
     <div className="container">
       <h1 className="name">Noah Schick</h1>
       <h1>front-end developer</h1>
-      <p className="subcontent">The iceman cometh... You killed my fada... My nipples are very sensitive. You should not drink and bake... Freeze in hell batman! Kill me (wealthy)! Hasta la vista baby.</p>
-      <p className="subcontent">You should not drink and bake... Freeze in hell batman! Kill me! Hasta la vista baby. Get to the choppa.</p>
       <div className="socials">
         <p>— Get in touch</p>
         <a className="github" href="https://github.com/NoahSchick">
@@ -48,7 +46,6 @@ const IndexPage = () => (
       </div>
     </div>
   </div>
-
 )
 
 export default IndexPage
