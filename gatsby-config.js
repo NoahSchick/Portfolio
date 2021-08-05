@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Noah Schick :: Front End Developer`,
+    description: `Hi! I'm Noah Schick, a front end developer who specializes in React. Currently working on Stellar a tool to help manage your product roadmap and customer feedback.`,
+    author: `Noah Schick`,
+    siteUrl: `https://www.noahs.co/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
