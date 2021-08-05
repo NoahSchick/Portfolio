@@ -8,8 +8,9 @@ const IndexPage = () => (
   <div className="wrapper">
 
     <Seo
-      title="Portfolio"
-      description="Noahs Portfolio"
+      title="Noah Schick :: Front End Developer"
+      description="Hi! I'm Noah Schick, a front end developer who specializes in React. Currently working on Stellar a tool to help manage your product roadmap and customer feedback"
+      keywords="Noah Schick"
     />
     <StaticImage
       src="../images/noah.png"
