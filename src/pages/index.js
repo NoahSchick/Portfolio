@@ -2,10 +2,15 @@ import * as React from "react"
 import "../styles/styles.scss"
 import "../styles/normalize.css"
 import { StaticImage } from "gatsby-plugin-image"
-// import Seo from "../components/seo"
+import Seo from "../components/seo"
 
 const IndexPage = () => (
   <div className="wrapper">
+
+    <Seo
+      title="Portfolio"
+      description="Noahs Portfolio"
+    />
     <StaticImage
       src="../images/noah.png"
       className="image"
