@@ -2,10 +2,15 @@ import * as React from "react"
 import "../styles/styles.scss"
 import "../styles/normalize.css"
 import { StaticImage } from "gatsby-plugin-image"
-// import Seo from "../components/seo"
+import Seo from "../components/seo"
 
 const IndexPage = () => (
   <div className="wrapper">
+
+    <Seo
+      title="Portfolio"
+      description="Noahs Portfolio"
+    />
     <StaticImage
       src="../images/noah.png"
       className="image"
@@ -31,7 +36,7 @@ const IndexPage = () => (
           </defs>
           </svg>
         </a>
-        <a className="twitter" href="https://twitter.com/NoahSchick7">
+        <a href="https://twitter.com/NoahSchick7">
           <svg width="24" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0)">
             <path d="M21.783 7.11169C21.7982 7.32488 21.7982 7.53811 21.7982 7.7513C21.7982 14.2538 16.849 21.7462 7.8033 21.7462C5.01648 21.7462 2.42767 20.9391 0.25 19.5381C0.645953 19.5838 1.02662 19.599 1.43781 19.599C3.73727 19.599 5.85405 18.8224 7.54441 17.4975C5.38197 17.4518 3.56978 16.0356 2.94541 14.0863C3.25 14.132 3.55455 14.1624 3.87437 14.1624C4.31598 14.1624 4.75764 14.1015 5.16878 13.995C2.91498 13.5381 1.22458 11.5584 1.22458 9.16753V9.10664C1.87937 9.47213 2.64086 9.70055 3.44791 9.73097C2.12303 8.84771 1.25505 7.34011 1.25505 5.63452C1.25505 4.72083 1.49866 3.88327 1.92508 3.1523C4.34641 6.13706 7.98602 8.08627 12.0672 8.2995C11.9911 7.93402 11.9454 7.55335 11.9454 7.17263C11.9454 4.46194 14.1383 2.25385 16.8641 2.25385C18.2804 2.25385 19.5595 2.84775 20.458 3.80714C21.5697 3.59395 22.6357 3.18277 23.5799 2.61933C23.2143 3.76149 22.4377 4.72088 21.4174 5.32997C22.4073 5.22342 23.3667 4.94925 24.2499 4.56858C23.58 5.54316 22.7424 6.41114 21.783 7.11169Z" fill="white" fill-opacity="0.6"/>
