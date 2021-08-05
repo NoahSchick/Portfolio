@@ -9,8 +9,7 @@ const IndexPage = () => (
 
     <Seo
       title="Noah Schick :: Front End Developer"
-      description="Hi! I'm Noah Schick, a front end developer who specializes in React. Currently working on Stellar a tool to help manage your product roadmap and customer feedback"
-      keywords="Noah Schick"
+      description="Hi! I'm Noah Schick, a front end developer who specializes in React. Currently working on Stellar a tool to help manage your product roadmap and customer feedback."
     />
     <StaticImage
       src="../images/noah.png"

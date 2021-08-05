@@ -43,7 +43,7 @@ function Seo({ description, lang, meta, title, pathname }) {
           ? [
               {
                 rel: "canonical",
-                href: canonical,
+                href: "https://noahs.co",
               },
             ]
           : []
