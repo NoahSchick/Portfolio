@@ -93,17 +93,9 @@ body {
         fill-opacity: 1;
       }
 
-    }
-
-    .github {
-      margin-right: 20px;
-    }
-
-    .twitter {
-      &:hover path {
-        fill: #1DA1F2;
+      &:first-of-type {
+        margin-right: 20px;
       }
     }
-
   }
 }
